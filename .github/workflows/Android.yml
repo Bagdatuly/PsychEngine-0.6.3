@@ -1,4 +1,4 @@
-name: Android Build Pro Max
+name: Android Build
 
 on:
   push:
@@ -75,5 +75,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PE-Android-Build
-          path: export/release/android/bin/app/build/outputs/apk/debug/name: Android Build
-
+          path: export/release/android/bin/app/build/outputs/apk/debug/
